@@ -1,0 +1,52 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(129, 230, 255);
+}
+
+.container {
+  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+  background-color: #f0f0f093;
+  width: 600px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(206, 206, 206);
+}
+
+.container:hover {
+  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
+.input-wrap{
+  display: flex;
+  gap: 10px;
+}
+.input-wrap input{
+  flex:1;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.input-wrap button{
+  padding: 10px 14px;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input-wrap button[disabled]{
+  opacity: .6;
+  cursor: not-allowed;
+}
